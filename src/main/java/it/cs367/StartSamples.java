@@ -3,8 +3,8 @@ package it.cs367;
 import it.cs367.router.SimpleRouteBuilder;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.camel.CamelContext;
+import org.apache.camel.Component;
 import org.apache.camel.component.properties.PropertiesComponent;
-import org.apache.camel.component.properties.PropertiesResolver;
 import org.apache.camel.impl.DefaultCamelContext;
 
 @Slf4j
@@ -15,9 +15,9 @@ public class StartSamples {
 
         var routeBuilder = new SimpleRouteBuilder();
         var ctx = new DefaultCamelContext();
-        var pc = new PropertiesComponent();
+        PropertiesComponent pc = new PropertiesComponent();
         pc.setLocation("classpath:application.properties");
-        ctx.addComponent("properties",pc);
+        ctx.setPropertiesComponent(pc);
         try {
             ctx.addRoutes(routeBuilder);
             ctx.start();

@@ -6,7 +6,7 @@ import org.apache.camel.builder.RouteBuilder;
 public class SimpleRouteBuilder extends RouteBuilder {
 
     public void configure() throws Exception {
-        from("file:/Users/{{move.file.location}}/Desktop/TestCamelInput?noop=true")
+        from("file:/Users/{{move.file.location}}/Desktop/TestCamelInput?antInclude=*.jpg,noop=true")
                 .to("file:/Users/{{move.file.location}}/Desktop/TestCamelOutput");
     }
 }
