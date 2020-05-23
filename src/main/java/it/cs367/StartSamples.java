@@ -1,9 +1,8 @@
 package it.cs367;
 
-import it.cs367.router.SimpleRouteBuilder;
+import it.cs367.router.CSVRoute;
+import it.cs367.router.MoveFileRoute;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.camel.CamelContext;
-import org.apache.camel.Component;
 import org.apache.camel.component.properties.PropertiesComponent;
 import org.apache.camel.impl.DefaultCamelContext;
 
@@ -12,14 +11,13 @@ public class StartSamples {
     public static void main(String[] args) {
 
         log.info("Start Main Class");
-
-        var routeBuilder = new SimpleRouteBuilder();
+        var csvRoute = new CSVRoute();
         var ctx = new DefaultCamelContext();
         PropertiesComponent pc = new PropertiesComponent();
         pc.setLocation("classpath:application.properties");
-        ctx.setPropertiesComponent(pc);
+ //       ctx.setprosetPropertiesComponent(pc);
         try {
-            ctx.addRoutes(routeBuilder);
+            ctx.addRoutes(csvRoute);
             ctx.start();
             Thread.sleep(5 * 60 * 1000);
             ctx.stop();
