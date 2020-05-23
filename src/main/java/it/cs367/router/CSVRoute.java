@@ -1,10 +1,8 @@
 package it.cs367.router;
 
-import it.cs367.habdler.CsvHandler;
+import it.cs367.handler.CsvHandler;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.dataformat.CsvDataFormat;
-
-import java.util.List;
 
 public class CSVRoute extends RouteBuilder {
     @Override
