@@ -15,18 +15,71 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:2.0.0-alpha1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.0-alpha1" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.camel:camel-core:2.12.0" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.6" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.camel:camel-csv:2.12.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.servicemix.bundles:org.apache.servicemix.bundles.commons-csv:1.0-r706899_5" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.camel:camel-xstream:2.12.0" level="project" />
-    <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.4.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-engine:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-api:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-base:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-management-api:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-util:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-languages:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-bean:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-browse:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-caffeine-lrucache:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.ben-manes.caffeine:caffeine:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-cluster:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-controlbus:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-dataformat:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-dataset:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-direct:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-directvm:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-file:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-catalog:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-language:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-log:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-mock:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-ref:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-rest:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-tooling-model:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-util-json:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-saga:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-scheduler:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-seda:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-stub:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-timer:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-validator:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-vm:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xpath:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xslt:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xml-jaxb:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xml-jaxp:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-csv:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-support:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xstream:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.4.11.1" level="project" />
     <orderEntry type="library" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
     <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.vintage:junit-vintage-engine:5.6.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-engine:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.13" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-jdbc:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-csv:1.8" level="project" />
+    <orderEntry type="library" name="Maven: com.h2database:h2:1.4.200" level="project" />
   </component>
 </module>
